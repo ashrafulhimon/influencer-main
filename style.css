@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;  
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+/*------HEADER PART---*/
+.container{
+    max-width: 1700px;
+    margin: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+    transition: transform 0.5s; 
+
+}
+.col-1 img{
+    max-width: 90%;
+    padding: 50px;
+}
+.col-1:hover{
+    transform: translateY(-5px);
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background: crimson;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+/*------BODY PART---*/
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+       
+}
+.col-3{ 
+    flex-basis: 26%;
+    padding: 10px;
+    min-width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.5s; 
+    box-shadow: 2px 2px 2px 1px rgb(201, 206, 211);
+
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+.col-3 img{
+    width: 100%;
+    
+}
+.btn1{
+    color: crimson;
+    float: right;
+}
+.title{
+        
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+}
+.rating .fas{
+    color: rgb(253, 186, 0);
+
+}
+.testimonial{
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1)
+    
+
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+/*------FOOTER PART---*/
+
+.footer{
+    padding: 50px 0 30px;
+    background: rgb(8, 8, 56);
+    color: whitesmoke;
+    text-align: center;
+}
+/*------media query for less than 600 scree sixe---*/
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+
+    }
+    .col-1, .col-3{
+        flex-basis: 100%;
+    }
+}
+/*------media query for less than 600 scree sixe---*/
+
+
+    
